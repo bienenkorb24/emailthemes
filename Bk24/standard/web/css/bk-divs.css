@@ -1,0 +1,26 @@
+@import "bk-fonts.css";
+
+div {
+    font-family: Ubuntu-Regular;
+}
+
+div.greenb {
+    border: 2px solid green;
+}
+div.redb {
+    border: 2px solid red;
+}
+div.blackb {
+    border: 2px solid black;
+}
+div.yellowb {
+    border: 2px solid yellow;
+}
+div.blueb {
+    border: 2px solid blue;
+}
+
+div.bk-footer{
+    background-color: white;
+    text-align: center;
+}

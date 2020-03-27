@@ -1,0 +1,12 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="copyright" remove="true"/>
+        <referenceBlock name="store_switcher" remove="true"/>
+        <referenceBlock name="frontend-storage-manager" remove="true"/>
+        <referenceBlock name="report.bugs" remove="true"/>
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceContainer name="footer-container">
+            <block class="Magento\Framework\View\Element\Template" name="bk-footer" template="Magento_Theme::html/bk-footer.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

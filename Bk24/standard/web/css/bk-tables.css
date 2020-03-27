@@ -1,0 +1,72 @@
+#tables
+table.greenb {
+    border: 2px solid green;
+}
+table.redb {
+    border: 2px solid red;
+}
+table.blackb {
+    border: 2px solid black;
+}
+table.yellowb {
+    border: 2px solid yellow;
+}
+table.blueb {
+    border: 2px solid blue;
+}
+
+#rows
+tr.greenb {
+    border: 2px solid green;
+}
+tr.redb {
+    border: 2px solid red;
+}
+tr.blackb {
+    border: 2px solid black;
+}
+tr.yellowb {
+    border: 2px solid yellow;
+}
+tr.blueb {
+    border: 2px solid blue;
+}
+
+
+#headers
+th.greenb {
+    border: 2px solid green;
+}
+th.redb {
+    border: 2px solid red;
+}
+th.blackb {
+    border: 2px solid black;
+}
+th.yellowb {
+    border: 2px solid yellow;
+}
+th.blueb {
+    border: 2px solid blue;
+}
+th.bk_footer_header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#data
+td.greenb {
+    border: 2px solid green;
+}
+td.redb {
+    border: 2px solid red;
+}
+td.blackb {
+    border: 2px solid black;
+}
+td.yellowb {
+    border: 2px solid yellow;
+}
+td.blueb {
+    border: 2px solid blue;
+}
