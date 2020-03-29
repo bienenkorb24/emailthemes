@@ -1,4 +1,3 @@
-#tables
 table.greenb {
     border: 2px solid green;
 }
@@ -15,7 +14,6 @@ table.blueb {
     border: 2px solid blue;
 }
 
-#rows
 tr.greenb {
     border: 2px solid green;
 }
@@ -33,7 +31,6 @@ tr.blueb {
 }
 
 
-#headers
 th.greenb {
     border: 2px solid green;
 }
@@ -49,12 +46,7 @@ th.yellowb {
 th.blueb {
     border: 2px solid blue;
 }
-th.bk_footer_header{
-    text-align: center;
-    text-transform: uppercase;
-}
 
-#data
 td.greenb {
     border: 2px solid green;
 }
@@ -70,3 +62,16 @@ td.yellowb {
 td.blueb {
     border: 2px solid blue;
 }
+
+td.bk-footer-data{
+    padding: 5px 10px;
+}
+
+#footer-table {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+

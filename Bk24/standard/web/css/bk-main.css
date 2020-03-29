@@ -1,7 +1,10 @@
 @import "bk-divs.css";
 @import "bk-tables.css";
 
-.centered_text{
+.centered_text {
     text-align: center;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
