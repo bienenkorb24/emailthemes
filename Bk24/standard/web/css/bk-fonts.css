@@ -23,31 +23,28 @@ h1 {
     display: block;
     line-height: 2.133em;
     font-size: 2.133em;
-    letter-spacing: 0.02em;
     text-transform: uppercase;
-    font-weight: 300;
-    font-style: bold;
 }
 
 h2 {
     font-family: Ubuntu-Medium;
-    letter-spacing: 0.02em;
     display: block;
     font-size: 1.933em;
+    line-height: 1.933em;
 }
 
 h3 {
     font-family: Ubuntu-Regular;
     display: block;
-    letter-spacing: 0.02em;
     font-size: 1.867em;
+    line-height: 1.867em;
 }
 
 h4 {
     font-family: Ubuntu-Medium;
-    letter-spacing: 0.02em;
     display: block;
     font-size: 1.667em;
+    line-height: 1.667em;
 }
 
 h5 {
@@ -55,13 +52,14 @@ h5 {
     letter-spacing: 0.02em;
     display: block;
     font-size: 1.467em;
+    line-height: 1.467em;
 }
 
 h6 {
     font-family: Ubuntu-Medium;
-    letter-spacing: 0.02em;
     display: block;
     font-size: 1.333em;
+    line-height: 1.333em;
 }
 
 p{
