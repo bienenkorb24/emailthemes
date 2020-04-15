@@ -9,4 +9,4 @@ Email-Templates Theme für Bienenkorb
 |Account ohne passwort|Magento_Customer/email/account_new_no_password.html |
 |Passwort reset       |Magento_Customer/email/password_reset.html          |
 |Passwort reset bestätigung|Magento_Customer/email/password_reset_confirmation.html|
-|Passwort neu       |Magento_Customer/email/password_new.html              |
+|Passwort neu         |Magento_Customer/email/password_new.html            |
