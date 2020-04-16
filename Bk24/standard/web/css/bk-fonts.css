@@ -1,80 +1,83 @@
 @font-face {
-    font-family: 'Ubuntu-Regular';
-    src: url('../fonts/Ubuntu-Regular.ttf');
+  font-family: "Ubuntu-Regular";
+  src: url("../fonts/Ubuntu-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Ubuntu-Bold';
-    src: url('../fonts/Ubuntu-Bold.ttf');
+  font-family: "Ubuntu-Bold";
+  src: url("../fonts/Ubuntu-Bold.ttf");
 }
 
 @font-face {
-    font-family: 'Ubuntu-Medium';
-    src: url('../fonts/Ubuntu-Medium.ttf');
+  font-family: "Ubuntu-Medium";
+  src: url("../fonts/Ubuntu-Medium.ttf");
 }
 
 @font-face {
-    font-family: 'Ubuntu-Italic';
-    src: url('../fonts/Ubuntu-Italic.ttf');
+  font-family: "Ubuntu-Italic";
+  src: url("../fonts/Ubuntu-Italic.ttf");
 }
 
 h1 {
-    font-family: Ubuntu-Bold;
-    display: block;
-    line-height: 2.133em;
-    font-size: 2.133em;
-    text-transform: uppercase;
+  font-family: Ubuntu-Bold;
+  display: block;
+  line-height: 2.133em;
+  font-size: 2.133em;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-family: Ubuntu-Medium;
-    display: block;
-    font-size: 1.933em;
-    line-height: 1.933em;
+  font-family: Ubuntu-Medium;
+  display: block;
+  font-size: 1.933em;
+  line-height: 1.933em;
 }
 
 h3 {
-    font-family: Ubuntu-Regular;
-    display: block;
-    font-size: 1.867em;
-    line-height: 1.867em;
+  font-family: Ubuntu-Regular;
+  display: block;
+  font-size: 1.867em;
+  line-height: 1.867em;
 }
 
 h4 {
-    font-family: Ubuntu-Medium;
-    display: block;
-    font-size: 1.667em;
-    line-height: 1.667em;
+  font-family: Ubuntu-Medium;
+  display: block;
+  font-size: 1.667em;
+  line-height: 1.667em;
 }
 
 h5 {
-    font-family: Ubuntu-Regular;
-    letter-spacing: 0.02em;
-    display: block;
-    font-size: 1.467em;
-    line-height: 1.467em;
+  font-family: Ubuntu-Regular;
+  letter-spacing: 0.02em;
+  display: block;
+  font-size: 1.467em;
+  line-height: 1.467em;
 }
 
 h6 {
-    font-family: Ubuntu-Medium;
-    display: block;
-    font-size: 1.333em;
-    line-height: 1.333em;
+  font-family: Ubuntu-Medium;
+  display: block;
+  font-size: 1.333em;
+  line-height: 1.333em;
 }
 
-p{
-    font-style: Ubuntu-Regular;
-    font-size: 0.933em;    
+p {
+  font-style: Ubuntu-Regular;
+  font-size: 0.933em;
 }
 
-blockquote{
-    font-style: Ubuntu-Italic;
-    font-size: 1.400em;    
-    color: #7f7f7f;
+blockquote {
+  font-style: Ubuntu-Italic;
+  font-size: 1.4em;
+  color: #7f7f7f;
 }
 
 a:link {
-    font-family: Ubuntu-Bold;
-    font-size: 0.933em;    
-    color: #825d28;
-}  
+  font-family: Ubuntu-Bold;
+  color: #825d28;
+}
+
+a:visited {
+  color: #b49d7e;
+}
