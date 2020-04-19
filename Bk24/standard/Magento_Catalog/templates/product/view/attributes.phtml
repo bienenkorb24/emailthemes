@@ -43,4 +43,12 @@
   <?php else: ?>
       <link itemprop="availability" href="http://schema.org/OutOfStock">
   <?php endif; ?>
+  <?php
+        $imageUrl = $this->helper('Magento\Catalog\Helper\Image')
+            ->init($block->getProduct(), 'product_page_image_large')
+            ->setImageFile($block->getImageFile())
+            ->getUrl();
+    ?>
+    <meta itemprop="image" content="<?php /* @escapeNotVerified */ echo $imageUrl; ?>" >
+
 </div>
