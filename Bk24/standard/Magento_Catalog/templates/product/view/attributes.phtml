@@ -31,3 +31,16 @@
         </table>
     </div>
 <?php endif;?>
+<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+  <meta itemprop="price" content="<?php echo $_product->getFinalPrice(); ?>" />
+  <meta itemprop="priceCurrency" content="<?php $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+  $currencysymbol = $objectManager->get('Magento\Store\Model\StoreManagerInterface');
+  echo $currency = $currencysymbol->getStore()->getCurrentCurrencyCode(); ?>" />
+  <meta itemprop="priceCurrency" content="<?php echo $_product->getCurrencyCode() ?>" />
+  <meta itemprop="url" content="<?php echo $_product->getProductUrl(); ?>">
+  <?php if ($_product->isAvailable()): ?>
+      <link itemprop="availability" href="http://schema.org/InStock">
+  <?php else: ?>
+      <link itemprop="availability" href="http://schema.org/OutOfStock">
+  <?php endif; ?>
+</div>
