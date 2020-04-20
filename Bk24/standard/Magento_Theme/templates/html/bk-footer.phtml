@@ -7,7 +7,7 @@
         </tr>
         <tr>
             <td class="bk-footer-data">servicehotline</td>
-            <td class="bk-footer-data">versandinformation</td>
+            <td class="bk-footer-data"><a href="<?php echo $block->getUrl('versand', ['_secure' => true]);?>">versandinformation</a></td>
             <td class="bk-footer-data">über uns</td>
         </tr>
         <tr>
@@ -16,14 +16,14 @@
             <td class="bk-footer-data">Anmeldung newsletter</td>
         </tr>
         <tr>
-            <td class="bk-footer-data">feedback-formular</td>
-            <td class="bk-footer-data">wiederrufbelehrung</td>
-            <td class="bk-footer-data">datenschutz + cookies</td>
+            <td class="bk-footer-data"><a href="<?php echo $block->getUrl('feedback', ['_secure' => true]);?>">feedback-formular</a></td>
+            <td class="bk-footer-data"><a href="<?php echo $block->getUrl('widerruf', ['_secure' => true]);?>">widerrufbelehrung</a></td>
+            <td class="bk-footer-data"><a href="<?php echo $block->getUrl('datenschutz', ['_secure' => true]);?>">datenschutz + cookies</a></td>
         </tr>
         <tr>
             <td class="bk-footer-data"><a href="<?php echo $block->getUrl('faq', ['_secure' => true]);?>">häufige fragen (FAQ)</a></td>
-            <td class="bk-footer-data">AGB</td>
-            <td class="bk-footer-data">impressum</td>
+            <td class="bk-footer-data"><a href="<?php echo $block->getUrl('agb', ['_secure' => true]);?>">AGB</a></td>
+            <td class="bk-footer-data"><a href="<?php echo $block->getUrl('impressum', ['_secure' => true]);?>">impressum</a></td>
         </tr>
         <tr><td></td></tr>
     </table>
