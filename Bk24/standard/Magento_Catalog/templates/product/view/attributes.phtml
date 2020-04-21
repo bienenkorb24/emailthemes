@@ -46,6 +46,8 @@
   echo $currency = $currencysymbol->getStore()->getCurrentCurrencyCode(); ?>" />
     <meta itemprop="priceCurrency" content="<?php echo $_product->getCurrencyCode() ?>" />
     <meta itemprop="url" content="<?php echo $_product->getProductUrl(); ?>">
+    <meta itemprop="itemCondition" content="https://schema.org/NewCondition" />
+
     <?php if ($_product->isAvailable()): ?>
     <link itemprop="availability" href="http://schema.org/InStock">
     <?php else: ?>
